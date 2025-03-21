@@ -1,0 +1,51 @@
+@import url("reset.css");
+* {
+  color: #3fcc73;
+}
+h2 {
+  color: rgb(36, 13, 238);
+}
+.footer {
+  color: chartreuse;
+}
+#block-5 p {
+  color: firebrick;
+}
+[class*="s-i"] {
+  color: aquamarine;
+}
+a.header-image {
+  color: deeppink;
+}
+.footer-content,
+.header-image {
+  color: rgb(57, 26, 70);
+}
+.block-text p {
+  color: rgb(188, 236, 17);
+}
+.block-text-title + p {
+  color: rgb(49, 17, 6);
+}
+
+.list-container > ul > li {
+  color: red;
+}
+.list-container > ul > li ~ li {
+  color: green;
+}
+.list-container > ul li ul > li {
+  color: blue;
+}
+.list-container > ul li ul > li ~ li {
+  color: orange;
+}
+.list-container > ul li ul > li > span {
+  color: #a0f0fc;
+}
+.list-container > ul li ul li ol > li {
+  color: #4597f7;
+}
+.list-container > ul li ul li ol > li ~ li {
+  color: #5d5d5d;
+}
